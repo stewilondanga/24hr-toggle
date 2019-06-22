@@ -31,13 +31,14 @@
   margin: auto;
 }
 
-/*.sky .wrapper #check {
+.sky .wrapper #check {
   position: absolute;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   opacity: 0;
 }
-.sky .wrapper .sun-and-moon {
+
+/*.sky .wrapper .sun-and-moon {
   position: relative;
   border-radius: 100%;
   width: 100px;
