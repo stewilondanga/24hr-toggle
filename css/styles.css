@@ -82,7 +82,7 @@
   background: #222029;
 }
 
-/*.stars-1, .stars-2, .stars-3, .stars-4 {
+.stars-1, .stars-2, .stars-3, .stars-4 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -92,7 +92,8 @@
   opacity: 0;
   transition: 0.6s all cubic-bezier(0.75, -0.5, 0, 1.75);
 }
-.stars-1:after, .stars-1:before, .stars-2:after, .stars-2:before, .stars-3:after, .stars-3:before, .stars-4:after, .stars-4:before {
+
+/*.stars-1:after, .stars-1:before, .stars-2:after, .stars-2:before, .stars-3:after, .stars-3:before, .stars-4:after, .stars-4:before {
   position: absolute;
   content: '';
   width: 2px;
