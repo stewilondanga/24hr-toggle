@@ -142,11 +142,12 @@
   right: 12%;
 }
 
-/*.stars-3:after {
+.stars-3:after {
   top: 123px;
   right: 337px;
 }
-.stars-3:before {
+
+/*.stars-3:before {
   top: 412px;
   right: 50px;
 }
