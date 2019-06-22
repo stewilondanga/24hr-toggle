@@ -10,8 +10,8 @@ var navigate = (function() {
 var checkBox = $('#check');
 var sky = $('.sky');
 var stars = $('.stars-1, .stars-2, .stars-3, .stars-4')
-/*
-checkBox.change(function(){
-    sky.toggleClass('sky__night');
-    stars.toggleClass('stars__night');
+
+checkBox.change(function() {
+  sky.toggleClass('sky__night');
+  stars.toggleClass('stars__night');
 });
