@@ -78,11 +78,11 @@
   opacity: 1;
 }
 
-/*.sky__night {
+.sky__night {
   background: #222029;
 }
 
-.stars-1, .stars-2, .stars-3, .stars-4 {
+/*.stars-1, .stars-2, .stars-3, .stars-4 {
   position: absolute;
   width: 2px;
   height: 2px;
