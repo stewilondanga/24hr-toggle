@@ -157,11 +157,12 @@
   right: 62%;
 }
 
-/*.stars-4:after {
+.stars-4:after {
   top: -100px;
   right: 154px;
 }
-.stars-4:before {
+
+/*.stars-4:before {
   top: 311px;
   left: 200px;
 }
