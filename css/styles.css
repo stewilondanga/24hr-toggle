@@ -103,11 +103,11 @@
   box-shadow: 0 0 0 4px rgba(244, 235, 198, 0.1), 0 0 0 8px rgba(244, 235, 198, 0.05), 0 0 0 12px rgba(244, 235, 198, 0.025);
 }
 
-/*.stars__night {
+.stars__night {
   opacity: 1;
 }
 
-.stars-1 {
+/*.stars-1 {
   top: 10%;
   left: 12%;
 }
