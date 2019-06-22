@@ -152,11 +152,12 @@
   right: 50px;
 }
 
-/*.stars-4 {
+.stars-4 {
   top: 33%;
   right: 62%;
 }
-.stars-4:after {
+
+/*.stars-4:after {
   top: -100px;
   right: 154px;
 }
