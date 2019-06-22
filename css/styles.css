@@ -122,11 +122,12 @@
   left: 100px;
 }
 
-/*.stars-2 {
+.stars-2 {
   top: 30%;
   left: 52%;
 }
-.stars-2:after {
+
+/*.stars-2:after {
   top: 564px;
   right: 37px;
 }
