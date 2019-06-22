@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,143 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+.sky {
+  position: relative;
+  background: skyblue;
+  height: 100vh;
+  display: flex;
+  transition: .4s all ease-in-out;
+}
+.sky label {
+  cursor: pointer;
+}
+.sky .wrapper {
+  position: relative;
+  margin: auto;
+}
+.sky .wrapper #check {
+  position: absolute;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
+}
+.sky .wrapper .sun-and-moon {
+  position: relative;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  background: #f4dc42;
+  box-shadow: 0 0 10px 10px #f4dc42, 0 0 20px 40px rgba(244, 220, 66, 0.6), 0 0 30px 70px rgba(244, 220, 66, 0.4), 0 0 40px 110px rgba(244, 220, 66, 0.2);
+  transition: 0.6s all cubic-bezier(0.75, -0.5, 0, 1.75);
+}
+.sky .wrapper .sun-and-moon:after {
+  position: absolute;
+  content: '';
+  background: #222029;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  left: -5px;
+  top: 10px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
+  -webkit-transform-origin: right center;
+          transform-origin: right center;
+  transition: 0.6s all cubic-bezier(0.75, -0.5, 0, 1.75);
+}
+.sky .wrapper #check:checked + .sun-and-moon {
+  background: #f4ebc6;
+  box-shadow: 0 0 0 0 #f4dc42, 0 0 0 0 rgba(244, 220, 66, 0.6), 0 0 0 0 rgba(244, 220, 66, 0.4), 0 0 0 0 rgba(244, 220, 66, 0.2);
+}
+.sky .wrapper #check:checked + .sun-and-moon:after {
+  transition-delay: 0;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  background: #222029;
+  opacity: 1;
+}
+
+.sky__night {
+  background: #222029;
+}
+
+.stars-1, .stars-2, .stars-3, .stars-4 {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #f4ebc6;
+  border-radius: 5px;
+  box-shadow: 0 0 0 4px rgba(244, 235, 198, 0.1), 0 0 0 8px rgba(244, 235, 198, 0.05), 0 0 0 12px rgba(244, 235, 198, 0.025);
+  opacity: 0;
+  transition: 0.6s all cubic-bezier(0.75, -0.5, 0, 1.75);
+}
+.stars-1:after, .stars-1:before, .stars-2:after, .stars-2:before, .stars-3:after, .stars-3:before, .stars-4:after, .stars-4:before {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 2px;
+  background: #f4ebc6;
+  border-radius: 5px;
+  box-shadow: 0 0 0 4px rgba(244, 235, 198, 0.1), 0 0 0 8px rgba(244, 235, 198, 0.05), 0 0 0 12px rgba(244, 235, 198, 0.025);
+}
+
+.stars__night {
+  opacity: 1;
+}
+
+.stars-1 {
+  top: 10%;
+  left: 12%;
+}
+.stars-1:after {
+  top: 331px;
+  right: 67px;
+}
+.stars-1:before {
+  top: 412px;
+  left: 100px;
+}
+
+.stars-2 {
+  top: 30%;
+  left: 52%;
+}
+.stars-2:after {
+  top: 564px;
+  right: 37px;
+}
+.stars-2:before {
+  top: 412px;
+  left: 20px;
+}
+
+.stars-3 {
+  top: 24%;
+  right: 12%;
+}
+.stars-3:after {
+  top: 123px;
+  right: 337px;
+}
+.stars-3:before {
+  top: 412px;
+  right: 50px;
+}
+
+.stars-4 {
+  top: 33%;
+  right: 62%;
+}
+.stars-4:after {
+  top: -100px;
+  right: 154px;
+}
+.stars-4:before {
+  top: 311px;
+  left: 200px;
 }
 
 .containers {
