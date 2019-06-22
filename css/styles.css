@@ -22,10 +22,11 @@
   transition: .4s all ease-in-out;
 }
 
-/*.sky label {
+.sky label {
   cursor: pointer;
 }
-.sky .wrapper {
+
+/*.sky .wrapper {
   position: relative;
   margin: auto;
 }
