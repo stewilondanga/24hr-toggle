@@ -48,7 +48,7 @@
   transition: 0.6s all cubic-bezier(0.75, -0.5, 0, 1.75);
 }
 
-/*.sky .wrapper .sun-and-moon:after {
+.sky .wrapper .sun-and-moon:after {
   position: absolute;
   content: '';
   background: #222029;
@@ -58,13 +58,14 @@
   left: -5px;
   top: 10px;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   opacity: 0;
   -webkit-transform-origin: right center;
-          transform-origin: right center;
+  transform-origin: right center;
   transition: 0.6s all cubic-bezier(0.75, -0.5, 0, 1.75);
 }
-.sky .wrapper #check:checked + .sun-and-moon {
+
+/*.sky .wrapper #check:checked + .sun-and-moon {
   background: #f4ebc6;
   box-shadow: 0 0 0 0 #f4dc42, 0 0 0 0 rgba(244, 220, 66, 0.6), 0 0 0 0 rgba(244, 220, 66, 0.4), 0 0 0 0 rgba(244, 220, 66, 0.2);
 }
