@@ -107,11 +107,12 @@
   opacity: 1;
 }
 
-/*.stars-1 {
+.stars-1 {
   top: 10%;
   left: 12%;
 }
-.stars-1:after {
+
+/*.stars-1:after {
   top: 331px;
   right: 67px;
 }
