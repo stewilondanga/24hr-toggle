@@ -127,11 +127,12 @@
   left: 52%;
 }
 
-/*.stars-2:after {
+.stars-2:after {
   top: 564px;
   right: 37px;
 }
-.stars-2:before {
+
+/*.stars-2:before {
   top: 412px;
   left: 20px;
 }
