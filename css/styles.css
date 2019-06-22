@@ -137,11 +137,12 @@
   left: 20px;
 }
 
-/*.stars-3 {
+.stars-3 {
   top: 24%;
   right: 12%;
 }
-.stars-3:after {
+
+/*.stars-3:after {
   top: 123px;
   right: 337px;
 }
